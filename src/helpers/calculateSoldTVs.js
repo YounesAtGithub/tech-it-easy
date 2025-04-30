@@ -1,8 +1,8 @@
 import { inventory } from "../constants/inventory.js";
 
+let amountSold = 0
 
     for (let i = 0; i < inventory.length; i++) {
-        const amountSold = inventory[i].sold
-        const add = inventory[i].sold + amountSold 
-        console.log(add);
+        amountSold = amountSold + inventory[i].sold
+        console.log(amountSold);
      }
