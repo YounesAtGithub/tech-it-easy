@@ -1,4 +1,3 @@
-//import { inventory } from "../constants/inventory.js";
 import calculateAmountBought from "./totalBoughtTVs.js";
 import calculateAmountSold from "./calculateSoldTVs.js";
 
