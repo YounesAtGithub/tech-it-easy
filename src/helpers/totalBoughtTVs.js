@@ -11,6 +11,4 @@ function calculateAmountBought() {
 
     }
 
-    //console.log(calculateAmountBought())
-
     export default calculateAmountBought
